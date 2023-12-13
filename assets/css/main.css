@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .row {
+  background-color: #EEEEEE;
+}
+header .row .headerDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+header .row .headerDiv .numberDiv {
+  display: flex;
+  gap: 20px;
+  font-size: 15px;
+  margin-top: 5px;
+}
+header .row .headerDiv .social i {
+  color: white;
+  background-color: rgb(177, 177, 177);
+  border-radius: 50px;
+  padding: 5px;
+  font-size: 15px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+}
+header nav .collapseDiv {
+  justify-content: flex-end;
+}
+header nav .collapseDiv ul li a {
+  font-weight: bolder;
+}
+header nav .collapseDiv ul li a:hover {
+  color: rgb(52, 154, 221);
+}
+
+#business {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/slide_2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#business .row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+#business .row .businesstext {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+#business .row .businesstext h3 {
+  color: white;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+#business .row .businesstext h1 {
+  color: white;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+#business .row .businesstext p {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+#business .row .businesstext button {
+  background-color: #26B7E7;
+  font-size: 15px;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  padding: 10px;
+  margin-left: 20px;
+}
+#business .row .businesstext button:hover {
+  background-color: white;
+  color: #26B7E7;
+  transition: 0.5s;
+}
+
+#apisection .container .row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+#apisection .container .row .buttons {
+  margin-bottom: 30px;
+}
+#apisection .container .row .buttons button {
+  font-size: 15px;
+  background-color: #26B7E7;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  border: none;
+}
+#apisection .container .row .buttons button a i {
+  color: white;
+}
+#apisection .container .row .buttons button a i:hover {
+  color: #44a1df;
+}
+#apisection .container .row .buttons button:hover {
+  background-color: white;
+  color: #26B7E7;
+  transition: 0.5s;
+}
+#apisection .container .row #apidiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 5px;
+  border-radius: 10px;
+}
+#apisection .container .row #apidiv .boxDiv {
+  border: 1px solid #26B7E7;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+}
+#apisection .container .row #apidiv .boxDiv .addtobasketbtn {
+  font-size: 15px;
+  background-color: #26B7E7;
+  color: white;
+  border-radius: 5px;
+  font-weight: bolder;
+  padding: 10px;
+  border: none;
+}
+#apisection .container .row #apidiv .boxDiv .addtobasketbtn:hover {
+  background-color: white;
+  color: #26B7E7;
+  transition: 0.5s;
+}
+
+#projects {
+  background-color: #EEEEEE;
+}
+#projects .container {
+  padding: 30px;
+}
+#projects .container .row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+#projects .container .row img {
+  max-width: 100%;
+  padding-bottom: 2%;
+}
+#projects .container .row .textdiv {
+  padding-bottom: 30px;
+}
+#projects .container .row .titlediv {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#projects .container .row .titlediv h2 {
+  padding-bottom: 20px;
+}
+#projects .container .row .titlediv ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+#projects .container .row .titlediv ul li {
+  font-weight: bolder;
+}
+#projects .container .row .titlediv ul li:hover {
+  color: #26B7E7;
+  transition: 0.5s;
+}
+
+#ourteam .container {
+  padding: 30px;
+}
+#ourteam .container .row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+#ourteam .container .row img {
+  max-width: 100%;
+  margin-bottom: -18px;
+}
+#ourteam .container .row .textdiv {
+  padding-bottom: 30px;
+}
+#ourteam .container .row .textdiv h2 {
+  padding-bottom: 20px;
+}
+#ourteam button {
+  width: 100%;
+  height: 70px;
+  margin-top: -30px;
+  border: none;
+  background-color: #26B7E7;
+  font-weight: 750;
+  color: white;
+  padding-top: 10px;
+}
+#ourteam button p {
+  color: white;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #26B7E7;
+  color: gray;
+}
+footer p {
+  color: black;
+  margin-top: 10px;
+}
