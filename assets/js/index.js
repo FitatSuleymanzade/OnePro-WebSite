@@ -83,7 +83,7 @@ function findByName() {
     abcd.style.display = "block";
     axios
       .get(
-        `https://655c30a1ab37729791aa03c7.mockapi.io/fi/products`
+        `https://655c30a1ab37729791aa03c7.mockapi.io/fi/products`     //apiye diqqet et//
       )
       .then((res) => {
         db = res.data;
